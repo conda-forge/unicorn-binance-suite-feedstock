@@ -1,5 +1,5 @@
 {% set name = "unicorn-binance-suite" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unicorn-binance-suite-{{ version }}.tar.gz
-  sha256: 04bad71ac74f92e454f0b8800289172b592a2dea5127ef2d19330c598da6c555
+  sha256: 5298837f782256a380ba000ce49dc28fb18579483d7b86bd9628106d281e851c
 
 build:
   number: 0
@@ -51,4 +51,4 @@ about:
 extra:
   recipe-maintainers:
     - oliver-zehentleitner
- 
+
