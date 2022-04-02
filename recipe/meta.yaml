@@ -23,6 +23,7 @@ requirements:
     - python >=3.7
     - unicorn-binance-local-depth-cache
     - unicorn-binance-rest-api
+    - unicorn-binance-trailing-stop-loss
     - unicorn-binance-websocket-api
     - unicorn-fy
 
@@ -31,6 +32,7 @@ test:
     - unicorn_fy
     - unicorn_binance_local_depth_cache
     - unicorn_binance_rest_api
+    - unicorn-binance-trailing-stop-loss
     - unicorn_binance_websocket_api
   commands:
     - pip check
