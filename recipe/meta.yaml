@@ -31,7 +31,7 @@ test:
   imports:
     - unicorn_binance_local_depth_cache
     - unicorn_binance_rest_api
-    - unicorn-binance-trailing-stop-loss
+    - unicorn_binance_trailing_stop_loss
     - unicorn_binance_websocket_api
     - unicorn_fy
   commands:
