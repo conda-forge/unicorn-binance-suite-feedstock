@@ -4,6 +4,6 @@ github:
 conda_forge_output_validation: true
 bot:
   automerge: true
-  inspection: false
+  inspection: disabled
 conda_build:
   pkg_format: '2'
