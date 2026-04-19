@@ -11,7 +11,7 @@ source:
   sha256: b4f70c71fc484ad840409f31227a12c648bf5fc81ac49219575e12fe6fb342f4
 
 build:
-  number: 3
+  number: 4
   noarch: python
   # --no-deps because upstream setup.py also requires `ubdcc`, which is not
   # available on conda-forge (by design — the UBDCC cluster ships as a PyPI
