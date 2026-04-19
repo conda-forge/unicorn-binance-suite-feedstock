@@ -3,18 +3,21 @@ About unicorn-binance-suite-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unicorn-binance-suite-feedstock/blob/main/LICENSE.txt)
 
-Home: https://www.lucit.tech/unicorn-binance-suite.html
+Home: https://github.com/oliver-zehentleitner/unicorn-binance-suite
 
 Package license: MIT
 
 Summary: Suite of packages for creating automated trading systems with the Binance API.
 
-Development: https://github.com/LUCIT-Systems-and-Development/unicorn-binance-suite
+Development: https://github.com/oliver-zehentleitner/unicorn-binance-suite
 
-Documentation: https://unicorn-binance-suite.docs.lucit.tech
+Documentation: https://oliver-zehentleitner.github.io/unicorn-binance-suite
 
-The UNICORN Binance Suite is a Python Meta Package of unicorn-fy,
-unicorn-binance-local-depth-cache, unicorn-binance-rest-api, unicorn-binance-trailing-stop-loss and unicorn-binance-websocket-api.
+The UNICORN Binance Suite is a Python meta-package that bundles the suite modules
+unicorn-fy, unicorn-binance-rest-api, unicorn-binance-websocket-api,
+unicorn-binance-local-depth-cache and unicorn-binance-trailing-stop-loss.
+The distributed depth-cache cluster (ubdcc) is not available on conda-forge; install
+it separately via `pip install ubdcc` if needed.
 
 
 Current build status
